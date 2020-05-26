@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+#Eesti president
+#
+#skripti algus
+#
+a_1=2016
+a_2="Kersti Kaljulaid"
+a_3=". aastal valiti Eesti presidendiks"
+a_lause="$a_1 $a_3 $a_2"
+echo -n "$a_lause"
+echo
+#
+#skripti lopp
+#
