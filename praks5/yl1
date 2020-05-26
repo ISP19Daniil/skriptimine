@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+#hypotenuusi arvutamine
+#
+#skripti algus
+#
+echo
+echo -n "Sisesta a kylje vaartus:"
+read a
+echo -n "Sisesta b kylje vaartus:"
+read b
+#
+#arvutamine
+#
+a_ruut=$(($a**2))
+b_ruut=$(($b**2))
+c_ruut=$(($a_ruut+$b_ruut))
+c=`echo "scale=2;sqrt($c_ruut)" | bc`
+echo "c=$c"
+#
+#skripti lopp
+

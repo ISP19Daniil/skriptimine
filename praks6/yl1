@@ -1,0 +1,24 @@
+#!/bin/bash
+#
+# paarsuse kontroll
+#
+# kasutaja sisendi kysimine
+#
+echo -e "Sisesta arv: \c"
+read arv
+#
+# arvutame jaak valja
+#
+jaak=$(($arv % 2))
+#
+# tingimus - kui jaak on null - arv on paaris
+#
+if test $jaak -eq 0
+then
+        echo "Antud arv on paaris"
+else
+        echo "Antud arv on paaritu"
+fi
+#
+# skripti lopp
+
