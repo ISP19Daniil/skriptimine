@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+#EAP arvutamine
+#
+#skripti algus
+#
+echo -n "Sisestage ainepuktide arv: "
+read punkt
+echo -n "Sisestage nadalate arv: "
+read nadal
+aeg=`echo "scale=1; $punkt*26/$nadal" | bc`
+aeg_ymarda="`echo "("$aeg"+0.9)/1" | bc`"
+echo "$aeg_ymarda"
+echo
+#
+#skripti lopp
