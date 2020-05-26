@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+#kasutaja mulje
+#
+#skripti algus
+#
+echo -n "Sisesta oma ee- ja perenimi: "
+read nimi
+echo -n "Millises oppegrupis opid?"
+read grupp
+echo -n "Kuidas sulle tundub antud aine?"
+read vastus
+echo -n "Sinu praegune mulje ja edasijoudmine: "
+read mulje
+echo "Tere tulemast, $nimi. 
+Sina opid grupis $grupp. 
+Sinu arvamus ainest: $vastus. 
+Sinu praegune mulje: $mulje"
+#
+#skripti lopp
+#

@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+#sorteeritud logid
+#
+#skripti algus
+#
+echo
+find /var/ -name "*.log" -a -type f 2> /dev/null -exec wc -l {} \; | sort -g -r | cut -f2 -d" "
+echo
+#
+#skripti lopp
