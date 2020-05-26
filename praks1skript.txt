@@ -1,0 +1,35 @@
+
+Disk /dev/sda: 16 GiB, 17179869184 bytes, 33554432 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x1262b2e3
+
+Device     Boot    Start      End  Sectors  Size Id Type
+/dev/sda1  *        2048  1953791  1951744  953M 83 Linux
+/dev/sda2        1953792 11718655  9764864  4.7G 82 Linux swap / Solaris
+/dev/sda3       11720702 33552383 21831682 10.4G  5 Extended
+/dev/sda5       11720704 21483519  9762816  4.7G 83 Linux
+/dev/sda6       21485568 28710911  7225344  3.5G 83 Linux
+/dev/sda7       28712960 33552383  4839424  2.3G 83 Linux
+
+___________________________
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:50:56:b8:21:ac brd ff:ff:ff:ff:ff:ff
+    inet 192.168.16.124/20 brd 192.168.31.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::250:56ff:feb8:21ac/64 scope link 
+       valid_lft forever preferred_lft forever
+___________________________
+ 01:09:31 up 2 min,  1 user,  load average: 0.00, 0.00, 0.00
+___________________________
+Linux skriptdaniil 3.16.0-6-amd64 #1 SMP Debian 3.16.56-1+deb8u1 (2018-05-08) x86_64 GNU/Linux
+___________________________
+skriptdaniil
