@@ -1,0 +1,24 @@
+#!/bin/bash
+#
+# ekskursiooni skript
+#
+#skripti algus
+#
+#inimeste andmed
+echo -n "Sisesta reisijate arv: "
+read reisijad
+#kohtade andmed bussis
+echo -n "Sisesta kohtade arv bussis: "
+read kohad
+#
+#arvutused
+#
+bussid=`expr "$reisijad" / "$kohad"`
+#kes ei mahtunud
+ylejaanud=`expr "$reisijad" % "$kohad"`
+#
+#tulemus
+echo -n "Kokku on vaja $bussid taisbussi ja sellega jaab veel $ylejaanud inimes$
+echo
+#
+#skripti lopp
